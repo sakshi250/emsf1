@@ -1,0 +1,387 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none
+  
+}
+.header{
+  height:100vh;
+  width:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.75)),url(femp.jpg);
+  background-position: center;
+  background-size:cover;
+  position:relative;
+}
+nav{
+  width:100%;
+  height:10vh ;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.nav2{
+  width:100%;
+  height:10vh ;
+ background:rgba(0,0,0,0.92);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+  width: 45px;
+}
+.nav-links ul li{
+list-style:none ;
+display: inline;
+padding: 10px 18px;
+position: relative;
+}
+
+.nav-links ul li a{
+  color:white;
+  text-decoration: none;
+  
+}
+.nav-links ul li :hover{
+  box-shadow: 0 0 20px 0px rgba(237, 237, 240, 0.719);
+  transition: 0.5s;
+  border-radius:15px;
+  
+}
+.linked a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+font-weight: 800
+
+  }
+
+nav img{
+  width:55%;
+  padding: 4vw 3vh;
+}
+
+.indextext{
+  width:90%;
+  color:#fff;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-40%);
+  
+}
+.indextext h1{
+  font-size: 48px;
+}
+.indextext p{
+  margin:10px 0px 40px;
+  font-size: 15.8px;
+  color:#fff;
+}
+.button
+{
+  display: inline;
+  text-decoration: none;
+
+  border:1px solid rgba(6, 2, 65, 0.493) ;
+  padding:12px 34px;
+  font-size: 13px;
+  background:rgba(6, 2, 65, 0.493);
+  position: relative;
+  cursor: pointer;
+  width: 250px;
+  height:50px ;
+
+}
+.button a{
+  text-decoration: none;
+  color: #fff;
+  transition:0.5s;
+}
+.button:hover{
+  border:1px solid rgba(12, 3, 136, 0.466);
+  background:rgba(12, 3, 136, 0.493);
+  transition: 0.1s;
+  box-shadow:0 0 20px 0px rgba(237, 237, 240, 0.719);
+}
+  .header2{
+  height:40vh;
+  width:100%;
+ background: linear-gradient(rgba(0,0,0,0.75)),url(sbg2);
+  position:relative;
+}
+
+  .m-about h1{
+    text-align:center;
+  font-weight: 600;
+margin-top: 7%;
+font-size: 52px
+  }
+  .about{
+ margin-top:10%;
+  text-align:center;
+  padding:5vh;
+}
+.m-about p{
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+}
+
+.header3{
+ height:50vh;
+  width:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(2.jpg);
+  background-position: center;
+  background-size:cover;
+  position:relative;
+  }
+
+
+.col{
+  margin-top:1.5%;
+  display: inline-block;
+  justify-content:space-between;
+  width:450px;
+  height: auto;
+  background: #ddd4d4e7;
+  border-radius: 10px;
+  margin-bottom:5%;
+  padding:20px 12px;
+  box-sizing: border-box;
+  transition:0.5s;
+}
+.col h3{
+  text-align: center;
+  font-weight: 650;
+  margin:5px 0px
+
+}
+.col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+}
+
+.col a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+  .m-contact h1{
+    text-align:center;
+  font-weight: 600;
+margin-top: 7%;
+font-size: 52px
+  }
+  .contact{
+ margin-top:10%;
+  text-align:center;
+  padding:5vh;
+}
+.m-contact p{
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+}
+
+.uncommon{
+  border:2px solid white;
+position: relative;
+  margin:45px 0;
+background:none
+}
+.uncommon input{
+   border:none;
+  background: none;
+  outline:none;
+}
+
+#updateform{
+  background: linear-gradient(rgba(0,0,0,0.75)),url(sbg2);
+}
+.form2{
+  background: #385ab97a;
+  width:500px;
+  height:580px;
+  
+  top:10%;
+  padding:5vw 5vh 5vw 5vh;
+  margin: 50px auto;
+  color: #fff;
+
+}
+.form1{background: #385ab97a;
+  width:500px;
+  height:450px;
+  top:10%;
+  padding:5vw 5vh 5vw 5vh;
+  margin: 50px auto;
+  color: #fff;}
+  #id{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #designation{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #salaray{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #name{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #department{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #empid{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  #salary{
+    background: none;
+    border:none;
+    padding: 1vh;
+  }
+  .mbtn{
+    text-align: center;
+    width:250px;
+    height:30px;
+    background: ivory;
+    border-color: ivory;
+    font-weight: 800;
+    position:relative;
+  }
+  .index2{
+    text-align: center;
+    background: linear-gradient(rgba(0, 1, 5, 0.75),rgba(3, 6, 22, 0.75)),url(fbg2.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    padding:16vw 4vh 16vw 4vh;
+  }
+  .index2 h3{
+    font-size: 42px;
+    font-weight: 750;
+    color: #fff;
+
+  }
+  
+  .form{
+  background: #385ab97a;
+  width:500px;
+  height:300px;
+  top:10%;
+  padding:5vw 5vh 5vw 5vh;
+  margin: 50px auto;
+  color: #fff;
+}
+.next{
+  text-align: right;
+  padding:0.5vw 35vh 0.5vw 35vh;
+  
+}
+#btn{
+  background:#fff;
+  height: 50px;
+  width: 500px;
+  color: #777;
+  border: none;
+  outline:none;
+  font-size:16px;
+   cursor: pointer;
+   font-weight:800;
+
+}
+#table-data-section{
+  text-align: center;
+
+
+}
+#table-data-section tr{
+  border:2px solid rgb(10, 0, 0) ;
+  text-align: center;
+  
+
+}
+#table-data-section td{
+  border:2px solid rgb(10, 0, 0) ;
+  font-size: 18px ;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: rgb(97, 150, 175);
+}
+#table-data-section th{
+  border:2px solid rgb(10, 0, 0) ;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 22px;
+  text-align: center;
+  background-color: rgba(107, 107, 110, 0.904);
+  padding:1vw 2vh 1vw 2vh;
+}
+.mtable h3 {
+  font-weight: 900;
+  font-size: 45px;
+
+}
+.mtable {
+margin-left:40vw;
+margin-right: 40vw;
+  padding-top:10%
+}
+.next1{
+  text-align: right;
+  margin-left: 80vh;
+  padding-top: 5%;
+}
+.mtable1 {
+  margin-left:37vw;
+  margin-right: 37vw;
+    padding-top:5%;
+  
+  }
+  .mtable1 h3 {
+    font-weight: 900;
+    font-size: 45px;
+    padding:5vh 6vw 5vh 6vw;
+  
+  }
+  .mtable2 {
+    margin-left:28vw;
+    margin-right: 28vw;
+    
+      
+    }
+    .mtable2 h3 {
+      font-weight: 900;
+      font-size: 45px;
+      padding:5vh 15vw 5vh 15vw;
+    
+    }
+    .next2{
+      text-align: right;
+      padding:0vw 35vh 0vw 35vh;
+      padding-top: 5%;
+    }
+    .table-sec{
+      background: linear-gradient(rgba(0,0,0,0.75)),url(sbg4.jpg);
+    }
